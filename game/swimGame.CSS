@@ -1,0 +1,43 @@
+body, html { 
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#backgroundImg{
+    border: 0;
+    padding: 0;
+    background-image: url(backgroundImg/swimStage04.png);
+    min-height: 100%;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.swimtxt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    height: 100%;
+    margin: 0px auto;
+    position: absolute;
+    top:0; 
+    right: 0;
+}
+.swimGametxt{
+    margin-top: -200px;
+    font-family: 'NeoDunggeunmo';
+    font-size: 80px;
+    color: #f0be33;
+    text-shadow: -5px 0 white, 0 5px white, 5px 0 white, 0 -5px rgb(255, 255, 255);
+}
+.starttxt{
+    margin-top: 50px;
+    font-family: 'NeoDunggeunmo';
+    font-size: 40px;
+    color: #339bf0;
+    text-shadow: -5px 0 white, 0 5px white, 5px 0 white, 0 -5px white;
+}
+
+/* 메인 깜빡이게하는 거 2.0s로 조절가능 */
+.starttxt { -webkit-animation:blink 1.0s ease-in-out infinite alternate; -moz-animation:blink 1.0s ease-in-out infinite alternate; animation:blink 1.0s ease-in-out infinite alternate; } @-webkit-keyframes blink{ 0% {opacity:0;} 100% {opacity:1;} } @-moz-keyframes blink{ 0% {opacity:0;} 100% {opacity:1;} } @keyframes blink{ 0% {opacity:0;} 100% {opacity:1;} }

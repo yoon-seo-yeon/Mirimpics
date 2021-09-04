@@ -1,0 +1,41 @@
+*body{ margin : 0; }
+
+/* div 속성 가운데 정렬 세로 정렬은 알아서 margin-top주기 */
+.out{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maintxt{
+    margin-top: 120px;
+    font-family: 'NeoDunggeunmo';
+    font-size: 70px;
+    color: #F6CF36;
+    text-shadow: -4.5px 0 white, 0 4.5px white, 4.5px 0 white, 0 -4.5px white;
+}
+.subtxt{
+    margin-top: 13px;
+    font-family: 'NeoDunggeunmo';
+    font-size: 16px;
+    color: #3683f6;
+    text-shadow: -1.5px 0 white, 0 1.5px white, 1.5px 0 white, 0 -1.5px white;
+}
+
+/* 게임 시작 버튼 */
+.gameStartBtn span{
+    font-family: 'NeoDunggeunmo';
+    font-size: 35px;
+    padding-top: 35px;
+    color: rgb(84, 113, 194);
+    text-shadow: -1.5px 0 white, 0 1.5px white, 1.5px 0 white, 0 -1.5px white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameStartBtn span:hover{
+    color: #F6CF36;
+    text-shadow: -1.5px 0 white, 0 1.5px white, 1.5px 0 white, 0 -1.5px white;
+
+}
